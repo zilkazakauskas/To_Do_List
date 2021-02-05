@@ -1,0 +1,97 @@
+body {
+	background: rgb(3, 34, 65);
+	text-align: center;
+	font-family: cursive;
+}
+
+h1 {
+	font-weight: 1000;
+	color: rgb(159, 165, 255);
+	 /* mirgsėjimo animacijai */
+	animation: blinker 1s step-start infinite;
+	letter-spacing: 10px;
+}
+/* mirgsėjimo animacijai */
+@keyframes blinker {
+	50% {
+	  opacity: 50%;
+	}
+  }
+
+p {
+	font-weight: 800;
+}
+
+#first {
+	color: rgb(179, 207, 56);
+}
+
+#second {
+	color: rgb(39, 168, 39);
+
+}
+
+#third {
+	color: rgb(175, 30, 30);
+}
+
+#submit{
+border: solid 2px #ffee04;
+border-radius: 10px;
+background: #a09d07cb;
+color: rgb(255, 255, 255);
+}
+#submit:hover{
+	background: rgb(39, 168, 39);
+}
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	font-weight: 600;
+	border: 3px solid #ffee04;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	background: #a09d07cb;
+	text-transform: capitalize;
+	text-align: left;
+	min-width: 900px;
+}
+
+li:hover {
+	background: rgb(55, 134, 55);
+}
+
+li>button {
+	font-weight: normal;
+	background: none;
+	float: right;
+	color: rgb(175, 30, 30);
+	font-weight: 800;
+	border: none;
+}
+
+input {
+	border-radius: 10px;
+	min-width: 90%;
+	padding: 10px;
+}
+
+.done {
+	background: rgb(39, 168, 39);
+}
+
+.delete {
+	display: none;
+}
+
+.hidden{
+	opacity: 0%;
+}
+
+/* #initials{
+	position: absolute;
+	bottom: 0;
+	color: white;
+} */

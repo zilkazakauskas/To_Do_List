@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <h1>Darbų sąrašas</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="instructions col-12">
+                <p class="mt-3" id="first">Įveskite užduotį į įvedimo laukelį.</p>
+                <p id="second">Paspauskite du kart ant užduoties norėdami, pažymėti, kad ji atlikta.</p>
+                <p class="mb-3" id="third">Paspauskite "X" norėdami pašalinti užduotį.</p>
+                <p id='textTime' class="hidden" style="color: rgb(255, 255, 255);">tuscia</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 mb-2">
+                <input id="userInput" type="text" placeholder="Įveskite užduotį.." maxlength="60">
+                <button id="submit" class="btn">Pridėti</button>
+            </div>
+        </div>
+        <!--atsirandantis uzduociu sarasas -->
+        <div class="row">
+            <div class="listItems col-12">
+                <ul class="col-12">
+                </ul>
+            </div>
+        </div>
+        <!-- <div>
+            <p id="initials">labas</p>
+        </div> -->
+    </div>
+    <script type="text/javascript" src="JS/main.js"></script>
+</body>
+</html>
